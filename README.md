@@ -1,2 +1,3 @@
-# Mini-Project.w2
-Mini-Project for the week 2
+# Challenge Project.w2
+
+create a website to showcase skills learned so far
