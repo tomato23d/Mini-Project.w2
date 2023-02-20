@@ -9,55 +9,71 @@
 
     <body>
 <main>
-<div class="header">
-<h2>my heading
-</h2>
-</div>
+      <div class="header">
+          <h2>my website for the week two</h2>
+          <h2><a href ="#form">contact:</a></h2>
+      </div>
 
 
-<div class="screen">
+      <div class="screen">
+            <div class = "wallpaper">  
+                  <img class ="wallpaper" src="./assets/images/background1.png"/>
+            </div>
 
+            <div class="objectd">
+                  <img class ="object" src="./assets/images/white.png"/>
+            </div>
+          
+            <div class="link">
+                  <p> <a href ="#talents"> click to find the talent </a></p> 
+            </div>
 
-        <h2> this is three </h2>
-          <div class = "wallpaper">  
-        
-          <img class ="wallpaper" src="./assets/images/background1.png"/>
-          </div>
-
-
-
-
-          <section class = "objectd">  
-            <h2> this is </h2>
-          <img class ="object" src="./assets/images/white.png"/>
-          </section>
- 
-</div>
-     
-     
-        
-
-        
-    <!--  <section class="b">
-          <section class="b">
-        </section>
-      </section>
--->
-
-
-
-
+      </div>
+    
 </main>
 
-
-
-
 <footer>
+    <div class="talents" id = "talents">
+        <ul>
+            <li><p>Talent Presenter</p></li>
+            <li><p>Keen Gardener</p></li>
+            <li><p>Fashion Designer</p></li>
+            <li><p>Dog Breeder</p></li>
+            <li><p>Pizza Baker</p></li>
+            <li><p>Systems Accountant with over decade experience</p></li>
+        </ul>
+      
+      <div id = "form" class="form">
+                  <h2>contact :</h2>
+            <form action = " " method = "get" class ="newform" id="contactform">
+                  <div class = "newform">  
+                        <label for = "name"> <span> Name: </span></label>
+                        <input type = "text" name = "name" id = "name" required> </div>
+                        <br>
+                  <div class = "newform"> 
+                        <label for = "email"> <span> Email : </span></label>
+                        <input type = "email" name = "email" id = "email" required> </div>
+                        <br> 
+                  <div class = "newform"> 
+                        <label for="comment">Comment:</label>
+                        <textarea id="comment" placeholder="Job Offers!"></textarea></div>
+                        <br> 
+                  <div class = "newform"> 
+                        <label for="Inquiry">Please specify:</label>
+                        <select id="expertise">
+                              <option>Job Offers</option>
+                              <option selected>Comments on website</option>
+                              <option>Other Comments</option>
+                            </select> </div>
+                            <br> 
+                  <section class = "newform"> 
+                        <button  type ="submit"> Please submit</button> </section>
+            </form> 
+      </div>
+    </div>
+
+
 </footer>
 
-
-
-
-    </body>
-
-    </html>
+</body>
+</html>

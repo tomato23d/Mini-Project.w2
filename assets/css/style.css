@@ -2,9 +2,41 @@
  
  body {
 		padding: 0; 
-		background-color: #Feeedc; 
+		background-color: #f1fcff; 
 		box-sizing: border-box;}
-	
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color:#d2e3ed;
+	border-radius: 15px; 
+	border-color: #f1fcff;
+}
+
+.talents {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+ ul {display: flex;
+	flex: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	flex: 1 0 400px
+}
+
+
+	.header h2, #talents {
+		font-style: italic;
+		font-weight: lighter;
+		color: #333637;
+	}
+
+
 	
 	.screen {
 		position: relative;
@@ -29,25 +61,29 @@
 		margin-left: auto;
 		margin-right: auto;
 		position: absolute;
-		z-index: 3;
+		z-index: 2;
 		right: 2%;
 		top: 5%;
 		opacity: 0.5;
-		border-style: groove;
-		border-color: #06a5c9;
-}
+	}
 
-.objectd img {opacity: 0.5;
+	.link {position: absolute;
+			z-index: 3;
+			right: 7%;
+			top: 13%;}
+
+
+	.objectd img {opacity: 0.5;
 				width: 100%;
 			min-width: 20px;}
 
+	.link p {color:#8c82df;}
 
-.objectd header {padding: 10px;
-				color:aliceblue}
 
 
 	.objectd:hover {opacity: 100%}
 	.object:active {transform: rotate(100deg)}
+	.talents p:hover {color:#8c82df;}
 
 
 	
