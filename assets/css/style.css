@@ -22,11 +22,12 @@
 	padding-right: 20px;
 }
 
+
  ul {display: flex;
 	flex: wrap;
-	flex-direction: row;
 	justify-content: space-between;
-	flex: 1 0 400px
+	flex: 1 0 400px;
+	padding: 20px;
 }
 
 
@@ -36,7 +37,14 @@
 		color: #333637;
 	}
 
+ 	#talent1::first-letter {
+		font-size: 1.5rem;
+		font-weight: bold;
+		color: #6f63df;
 
+ }
+
+ 
 	
 	.screen {
 		position: relative;
@@ -77,13 +85,13 @@
 				width: 100%;
 			min-width: 20px;}
 
-	.link p {color:#8c82df;}
+	.link p {color:#6f63df;}
 
 
 
 	.objectd:hover {opacity: 100%}
 	.object:active {transform: rotate(100deg)}
-	.talents p:hover {color:#8c82df;}
+	.talents p:hover {color:#6f63df;}
 
 
 	
