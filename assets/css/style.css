@@ -5,10 +5,10 @@
 		box-sizing: border-box;
 	}
 /*
-	:root {	--brick-theme-font1: rgb(231, 84, 69);
-			--brick-theme-font2: #333637;
-			--brick-theme-background1:  rgb(241, 190, 246);
-			--brick-theme-background2: rgb(241, 190, 246);
+	:root {	--b-theme-font1: rgb(231, 84, 69);
+			--b-theme-font2: #333637;
+			--b-theme-background1:  rgb(241, 190, 246);
+			--b-theme-background2: rgb(241, 190, 246);
 	}
 */ 
  
@@ -94,6 +94,23 @@ li::marker {
 		opacity: 0.5;
 }
 
+.objecte {
+	flex: 0 0 100px;
+	padding: 25px;
+	height: 40%;
+	min-width: 15%;
+	max-width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	z-index: 3;
+	left: 20%;
+	bottom: 5%;
+	opacity: 0.5;
+}
+
+
+
 .link {
 		position: absolute;
 		z-index: 3;
@@ -114,6 +131,11 @@ li::marker {
 .objectd:hover {
 		opacity: 100%;
 }
+
+.objecte:hover {
+	opacity: 80%;
+}
+
 
 .object:active {
 		transform: rotate(100deg);
