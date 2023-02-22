@@ -8,15 +8,15 @@ create a website to showcase skills learned so far
 ## User Story
 
 ```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+AS a student
+I would like to follow on our lectures context and designer features available on our websites
+I would like to prepare a portfolio of work samples to demonstrate my skills to potential employers 
 ```
 
 
 ## Acceptance Criteria
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+Here are the critical requirements I rely on while developing a portfolio that satisfies a typical hiring manager’s needs:
 
 ```
 GIVEN I need to sample a potential employee's previous work
