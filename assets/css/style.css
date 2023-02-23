@@ -4,7 +4,7 @@
 		--original-theme-background2: #d2e3ed;
 		box-sizing: border-box;
 	}
-/*
+/* The second set of variables is stored in case will be needed for future work with Java Script.
 	:root {	--b-theme-font1: rgb(231, 84, 69);
 			--b-theme-font2: #333637;
 			--b-theme-background1:  rgb(241, 190, 246);
